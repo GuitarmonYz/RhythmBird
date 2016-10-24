@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.IO.Ports;
-using System;
 
 public class player : MonoBehaviour {
 
@@ -12,38 +10,16 @@ public class player : MonoBehaviour {
 	private Vector2 start;
 	public generate generate;
 
-    SerialPort bt = new SerialPort("COM6", 115200);
-
-    void Start(){
+	void Start(){
 		bird = GetComponent<Rigidbody2D> ();
 		start = new Vector2 (transform.position.x, transform.position.y);
-
-        try
-        {
-            bt.Open();
-            bt.ReadTimeout = 25;
-        }
-        catch (Exception e)
-        {
-            Debug.Log("Could not open serial port: " + e.Message);
-        }
-    }
+	}
 
 	// Update is called once per frame
 	void Update ()
 	{
-        try
-        {
-            int shakeTrigger = Convert.ToInt16(bt.ReadLine());
-            if (shakeTrigger == 1)
-            {
-                bird.velocity = new Vector2(0, -30f);
-            }
-        }
-        catch { }
-        
-
-        if (Input.GetKeyDown("space"))
+		// Jump
+		if (Input.GetKeyUp("space"))
 		{
 			bird.velocity = new Vector2 (0, -30f);
 		}
