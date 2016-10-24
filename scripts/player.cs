@@ -19,7 +19,7 @@ public class player : MonoBehaviour {
 	void Update ()
 	{
 		// Jump
-		if (Input.GetKeyUp("space"))
+		if (Input.GetKeyUp("spaaace"))
 		{
 			bird.velocity = new Vector2 (0, -30f);
 		}
