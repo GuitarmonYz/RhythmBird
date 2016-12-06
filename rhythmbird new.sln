@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{CD0F391E-13F8-F6EC-05DC-67F8A3D7EAAF}") = "rhythmbird new", "Assembly-CSharp.csproj", "{24F18ADC-4F50-6729-5491-11737492E8D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24F18ADC-4F50-6729-5491-11737492E8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F18ADC-4F50-6729-5491-11737492E8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F18ADC-4F50-6729-5491-11737492E8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F18ADC-4F50-6729-5491-11737492E8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
