@@ -2,11 +2,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/player.cs">
     <Files>
-      <File FileName="Assets/Scripts/generate.cs" Line="109" Column="3" />
-      <File FileName="Assets/Scripts/score.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/player.cs" Line="100" Column="33" />
+      <File FileName="Assets/Scripts/LoadOnClick.cs" Line="30" Column="19" />
+      <File FileName="Assets/Scripts/generate.cs" Line="19" Column="127" />
+      <File FileName="Assets/Scripts/score.cs" Line="8" Column="39" />
+      <File FileName="Assets/Scripts/player.cs" Line="159" Column="4" />
       <File FileName="Assets/Scripts/rock.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LoadOnClick.cs" Line="26" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

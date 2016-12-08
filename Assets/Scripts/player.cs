@@ -10,6 +10,10 @@ public class player : MonoBehaviour {
 	// The force which is added when the player jumps
 	// This can be changed in the Inspector window
 	//public Vector2 jumpForce = new Vector2(0, 300);
+
+	public Sprite bird0;
+	public Sprite bird1;
+
 	public Rigidbody2D bird ;
 	private Vector2 start;
 	public generate generate;
@@ -35,6 +39,12 @@ public class player : MonoBehaviour {
 	private AudioSource source;
 	private float vol = 2.5f;
 	void Start(){
+		if (LoadOnClick.bird == 0) {
+			this.GetComponent<SpriteRenderer> ().sprite = bird0;
+		} else {
+			this.GetComponent<SpriteRenderer> ().sprite = bird1;
+		}
+
 		source = this.GetComponent<AudioSource> ();
 		sourcearray = new AudioClip[]{c,ee,g,b};
 		bird = GetComponent<Rigidbody2D> ();

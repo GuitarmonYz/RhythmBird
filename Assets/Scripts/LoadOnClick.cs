@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class LoadOnClick : MonoBehaviour {
 
 	public static int level = 0;
-	//public int passlevel = 0;
+	public static int bird = 0;
 	public static int pattern = 0;
 	public static int mode = 0;
 
@@ -26,5 +26,8 @@ public class LoadOnClick : MonoBehaviour {
 		mode = passmode;
 	}
 
+	public void choosebird(int passbird){
+		bird = passbird;
+	}
 
 }
